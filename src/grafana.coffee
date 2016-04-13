@@ -284,7 +284,6 @@ module.exports = (robot) ->
     headers = {
       'Content-Length' : length,
       'Content-Type'   : content_type,
-      'x-amz-acl'      : 'public-read',
       'encoding'       : null
     }
 
